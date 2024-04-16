@@ -25,4 +25,4 @@ HTML5 / CSS / JAVASCRIPT
 **********************************************************************************
 React
 
-1:            Blog Website                          https://dev-react-project.netlify.app/
+1:            Blog Website                          https://hcjr-project4.netlify.app/
