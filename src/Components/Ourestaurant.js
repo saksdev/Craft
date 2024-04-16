@@ -13,7 +13,7 @@ function Ourestaurant() {
 						<h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita ut aliquam exercitationem, pariatur, eos, enim a
 							laudantium quisquam minus maiores harum iusto suscipit nostrum beatae aspernatur nesciunt illo repudiandae ullam.
 						</h5>
-						<a className='btn' href='#'>Read More</a>
+						<a className='btn' href='/'>Read More</a>
 					</div>
 				</div>
 				<div className='image'>
