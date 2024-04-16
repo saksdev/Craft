@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			display: flex;
+                        justify-content: center;
+			align-items: center;
+			height: 100vh;
+		}
+		.container {
+			width: 100%;
+			max-width: 956px;
+			border-collapse: collapse;
+			color: hsl(0, 0%, 12%);
+			word-break: normal;
+			box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.1);
+		}
+
+		.container th {
+			color: #FFFFFF;
+			text-align: left;
+			padding: 0px 5px 0px 12px;
+			line-height: normal;
+			background: #144b7f;
+		}
+
+		.container td {
+			padding: 18px 16px;
+		}
+
+		.container tr:nth-child(odd) th {
+			background: #103e69;
+		}
+
+		.container tr:nth-child(odd) td {
+			background: #EBEBEB;
+		}
+
+		@media screen and (max-width: 375px) {
+			.container th {
+				font-size: 12px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<table class="container">
+		<tbody>
+			<tr>
+				<th>SPEED:</th>
+				<td><strong style="color: #008000;">798 ms</strong> (January 2022 average) </td>
+			</tr>
+			<tr>
+				<th>UPTIME:</th>
+				<td><strong style="color: #008000;">99.99%</strong> (January 2022 average) </td>
+			</tr>
+			<tr>
+				<th>SUPPORT:</th>
+				<td>24/7 &amp; 365 Days Live Chat Support</td>
+			</tr>
+			<tr>
+				<th>FEATURES:</th>
+				<td>30-Day Money-Back Guarantee </br><em> *Included in the 36/mo plan*</em></td>
+			</tr>
+			<tr>
+				<th>HOSTING PLANS:</th>
+				<td>Shared, Cloud, WordPress, VPS, and Dedicated Servers</td>
+			</tr>
+			<tr>
+				<th>PRICING:</th>
+				<td><strong><a href="" target="_blank">Starting at ₹169/mo*</a></strong> Regularly
+					₹<strike>299</strike>/mo*</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+
+</html>

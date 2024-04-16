@@ -1,0 +1,194 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: Inter;
+
+}
+
+.website-name {
+	margin: auto 0px;
+}
+
+nav {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+li {
+	list-style-type: none;
+	display: inline-flex;
+	margin: 20px;
+}
+
+.desktop a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.mobile {
+	display: none;
+}
+
+.item-btn {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+button {
+	width: fit-content;
+	padding: 12px 22px 12px 22px;
+	border: none;
+	background: linear-gradient(rgb(255, 255, 131), rgb(255, 255, 68));
+}
+
+section, nav {
+	padding: 20px 10% 20px 10%;
+}
+
+.section1 {
+	width: auto;
+}
+
+.section1 h1 {
+	font-size: 4vw;
+	font-family: Inter;
+	font-weight: 200;
+	margin-bottom: 0px;
+	width: 60%;
+}
+
+.section1 p {
+	max-width: 80%;
+}
+
+.section2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.section2 img {
+	padding: 15px;
+}
+
+.section3 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.img-content {
+	width: 46%;
+	margin-bottom: 15px;
+}
+
+.img-content img {
+	width: 100%;
+}
+
+.section4 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #464545;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.content {
+	width: 46%;
+	margin-bottom: 15px;
+}
+
+.about {
+	width: 100%;
+}
+
+.about h2 {
+	font-size: 2.7rem;
+}
+
+footer {
+	display: inline-flex;
+	width: -webkit-fill-available;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #464545;
+	padding: 20px 10% 20px 10%;
+}
+
+footer img {
+	margin: 5px;
+}
+
+.toggle{
+	display: none;
+}
+
+.toggle-menu-bar {
+	display: block;
+	width: 25px;
+	height: 4px;
+	background-color: #e58139;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin: 0 auto 3px;
+	transition: background-color 0.2s;
+}
+
+/* Table and Mobile */
+
+@media (max-width : 1095px) {
+	.img-content {
+		width: 100%;
+		max-width: none;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.desktop {
+		display: none;
+	}
+
+	.section1 h1 {
+		width: auto;
+		font-size: 2.5rem;
+	}
+
+	.about{
+		padding-bottom: 30px;
+	}
+
+	.about h2 {
+		font-size: 2rem;
+	}
+
+	.toggle{
+		display: block;
+	}
+	section, nav {
+	padding: 10px 5% 10px 5%;
+}
+	.section1 p {
+		max-width: 100%;
+	}
+}
+
+@media (min-width : 1095px) {
+
+	.section2,
+	.section4 {
+		justify-content: space-between;
+	}
+
+	.about {
+		width: 50%;
+	}
+}

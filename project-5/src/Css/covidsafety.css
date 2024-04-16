@@ -1,0 +1,38 @@
+#CovidSafety {
+  margin: 0px 0px;
+  text-align: center;
+  background-image: url(../../public/img/Covid.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80vh;
+  max-height: 950px;
+}
+
+#CovidSafety h3 {
+  color: rgb(90, 177, 144);
+  font-weight: 100;
+  margin: 0;
+  padding-top: 1.2%;
+}
+
+#CovidSafety h1 {
+  font-size: 2rem;
+  margin: 10px auto;
+}
+
+#CovidSafety .btn {
+  background-color: rgb(90, 177, 144);
+}
+
+#CovidSafety img {
+  max-width: 100%;
+  max-height: 40vh;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 950px) {
+  #CovidSafety {
+    background-size: cover;
+  }
+}

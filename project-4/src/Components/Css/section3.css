@@ -1,0 +1,19 @@
+.menu , .menu-image{
+	padding: 12px 24px;
+	width: 50%;
+}
+
+.menu p{
+	font-size: smaller;
+	opacity: 0.7;
+}
+
+@media (max-width: 995px) {
+	#menu {
+		flex-wrap: wrap;
+	}
+	.menu, .menu-image{
+		width: 100%;
+	}
+	
+}
