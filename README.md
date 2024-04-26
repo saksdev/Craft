@@ -27,4 +27,4 @@ React
 
 1:            Blog Website                          https://hcjr-project4.netlify.app/
 
-2:            Restaurants Webstie                    https://hcjr-project5.netlify.app/
+2:            Restaurants Website                    https://hcjr-project5.netlify.app/
