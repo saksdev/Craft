@@ -17,14 +17,14 @@ function Categories() {
 					<h1>Meat</h1>
 					<h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 						Quo ratione molestias totam error temporibus.</h5>
-					<a className='btn' href='#'>Read More</a>
+					<a className='btn' href='/'>Read More</a>
 				</div>
 				<div className='items-box'>
 					<span className='item-circle'><img className='image-circle' src={Fish} alt='Fish' title='Eat Fish' /></span>
 					<h1>Fish</h1>
 					<h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 						Quo ratione molestias totam error temporibus.</h5>
-					<a className='btn' href='#'>Read More</a>
+					<a className='btn' href='/'>Read More</a>
 				</div>
 
 				<div className='items-box'>
@@ -32,7 +32,7 @@ function Categories() {
 					<h1>Drink</h1>
 					<h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
 						Quo ratione molestias totam error temporibus.</h5>
-					<a className='btn' href='#'>Read More</a>
+					<a className='btn' href='/'>Read More</a>
 				</div>
 			</div>
 		</section>
