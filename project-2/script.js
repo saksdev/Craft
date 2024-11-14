@@ -82,7 +82,7 @@ let products = document.querySelector("main");
         <p>${item.content}</p>`;
         products.appendChild(container);
     })
-})():
+})();
 
 document.getElementById('BreakFast').addEventListener('click', function (){
     products.innerHTML = "";
