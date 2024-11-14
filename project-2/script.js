@@ -69,9 +69,8 @@ let obj = [
 
 let products = document.querySelector("main");
 
-allproduct();
 
-function allproduct() {
+(function () {
     products.innerHTML ="";
     obj.map((item) => {
         const container = document.createElement('div');
@@ -83,7 +82,7 @@ function allproduct() {
         <p>${item.content}</p>`;
         products.appendChild(container);
     })
-}
+})():
 
 document.getElementById('BreakFast').addEventListener('click', function (){
     products.innerHTML = "";
