@@ -9,7 +9,7 @@ HTML5 & CSS
 
 3:               [Blog Preview Card](https://saksham-code.netlify.app/blogpreviewcard)
 
-4:               [Product preview card](https://hcjr.netlify.app/5)
+4:               [Product preview card](https://saksham-code.netlify.app/productpreviewcard)
 
 5:               [Responsive Website](https://hcjr.netlify.app/project-1/)
 
