@@ -1,6 +1,3 @@
-https://hcjr.netlify.app  h -> HTML | c -> CSS | j -> JAVASCRIPT r -> REACT
-
-
 HTML5 & CSS
 
 1:               [QR code component](https://saksham-code.netlify.app/qrcodecomponent)          
