@@ -3,7 +3,7 @@ https://hcjr.netlify.app  h -> HTML | c -> CSS | j -> JAVASCRIPT r -> REACT
 
 HTML5 & CSS
 
-1:               <a src=" https://saksham-code.netlify.app/qrcodecomponent">QR code component</a>                 
+1:               [QR code component](https://saksham-code.netlify.app/qrcodecomponent)          
 
 2:               Social links profile:              https://hcjr.netlify.app/2
 
