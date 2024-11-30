@@ -7,13 +7,11 @@ HTML5 & CSS
 
 2:               [Social Links Profile](https://saksham-code.netlify.app/sociallinksprofile)
 
-3:               Responsive Table:                  https://hcjr.netlify.app/3
+3:               [Blog Preview Card](https://saksham-code.netlify.app/blogpreviewcard)
 
-4:               Blog Preview Card:                 https://hcjr.netlify.app/4
+4:               [Product preview card](https://hcjr.netlify.app/5)
 
-5:               Product preview card               https://hcjr.netlify.app/5
-
-6:               Responsive Website:                https://hcjr.netlify.app/project-1/
+5:               [Responsive Website](https://hcjr.netlify.app/project-1/)
 
 **********************************************************************************
 HTML5 / CSS / JAVASCRIPT
