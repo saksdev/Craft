@@ -8,7 +8,7 @@ HTML5 & CSS
 
 4:               [Product preview card](https://saksham-code.netlify.app/productpreviewcard)
 
-5:               [Responsive Website](https://hcjr.netlify.app/project-1/)
+5:               [Responsive Website](https://hcjr.netlify.app/Responsive%20Website/)
 
 **********************************************************************************
 HTML5 / CSS / JAVASCRIPT
