@@ -13,9 +13,9 @@ HTML5 & CSS
 **********************************************************************************
 HTML5 / CSS / JAVASCRIPT
 
-1:              Dynamic Website                     https://hcjr.netlify.app/project-2/
+1:              [Dynamic Website](https://saksham-code.netlify.app/dynamic%20website/)
 
-2:              TO DO List                          https://hcjr.netlify.app/project-3/
+2:              [TODO List](https://saksham-code.netlify.app/ToDo%20List/)
 
 **********************************************************************************
 React
