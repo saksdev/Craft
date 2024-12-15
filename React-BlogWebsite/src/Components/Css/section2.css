@@ -1,0 +1,29 @@
+.about, .image{
+	padding: 12px 24px;
+	width: 100%;
+}
+
+.about h5{
+	text-align: center;
+}
+
+.about p:last-child{
+	opacity: 0.6;
+}
+
+mark{
+	background-color: #dedddd;
+}
+
+@media (max-width: 600px){
+	.image {
+		display: none;
+	}
+}
+
+@media (min-width: 600px) and (max-width: 995px){
+	.about p:last-child{
+		display: none;
+	}
+	
+}
