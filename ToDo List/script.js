@@ -51,6 +51,7 @@ addbtn.addEventListener('click', () => {
 			error.innerHTML = "";
 		}, 2000);
 	}
+	
 	addbtn.innerHTML = "Submit";
 	saveinfo(data);
 	input.value = "";
