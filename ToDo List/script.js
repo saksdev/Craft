@@ -1,13 +1,12 @@
 let input = document.querySelector('input');
 let addbtn = document.querySelector('button');
-
 let recordslist = document.querySelector('.showlists');
 let error = document.getElementById('error');
-
 let data = [];
-let id = null;
 
 let objstr = localStorage.getItem('lists');
+let id = null;
+
 if (objstr != null) {
 	data = JSON.parse(objstr);
 }
@@ -59,10 +58,7 @@ addbtn.addEventListener('click', () => {
 	console.log(data);
 })
 
-function saveinfo(data) {
-	localStorage.setItem('lists', JSON.stringify(data))
-}
-
+// Display Data
 function display() {
 	let showdata = '';
 	data.forEach((info, index) => {
@@ -77,21 +73,21 @@ function display() {
 	recordslist.innerHTML = showdata;
 } display();
 
+// Save Data On Localstorage
+function saveinfo(data) {
+	localStorage.setItem('lists', JSON.stringify(data))
+}
 
+// Delete Data
 function deleteinfo(index) {
 	data.splice(index, 1);
 	saveinfo(data);
 	display();
 }
 
-
+// Edit Data
 function editinfo(index) {
 	id = index;
 	addbtn.innerHTML = "Save Changes";
 	input.value = data[id].content;
 }
-
-
-data.forEach((e) => {
-	console.log(e.content);
-});
