@@ -2,14 +2,8 @@ let input = document.querySelector('input');
 let addbtn = document.querySelector('button');
 let recordslist = document.querySelector('.showlists');
 let error = document.getElementById('error');
-let data = [];
-
-let objstr = localStorage.getItem('lists');
+let data = JSON.parse(localStorage.getItem('lists')) || [];
 let id = null;
-
-if (objstr != null) {
-	data = JSON.parse(objstr);
-}
 
 addbtn.addEventListener('click', () => {
 	if (id != null) {
